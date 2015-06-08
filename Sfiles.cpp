@@ -54,12 +54,3 @@ void outpute_file(string name, vector <string> &text, int mode)
 	}
 	out_file.close();
 }
-
-void outpute_file_add_string(string name, string text)
-{
-	ofstream out_file;
-	string text_temp;
-	out_file.open(name);
-	out_file << text << endl;
-	out_file.close();
-}

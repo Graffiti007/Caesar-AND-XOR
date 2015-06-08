@@ -10,9 +10,24 @@ using namespace std;
 #include "Sfiles.h"
 #include "XOR.h"
 
+/*! Функция главного интерфейса
+     \endcode
+*/
 void menu_prog();
+
+/*! Функция интерфейса при выборе зашифровать Цезарем
+     \endcode
+*/
 void mode_cesar_shifr();
+
+/*! Функция интерфейса при выборе расшифровать шифр Цезаря
+     \endcode
+*/
 void mode_cesar_rasshifr();
+
+/*! Функция интерфейса при выборе зашифровать с помощью XOR
+     \endcode
+*/
 void mode_xor();
 
 int main()
