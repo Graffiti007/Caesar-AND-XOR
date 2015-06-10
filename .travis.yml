@@ -1,0 +1,11 @@
+language: cpp
+compiler:
+  - gcc
+notifications:
+  recipients:
+    - graffiti007@yandex.ru
+  email:
+    on_success: change
+    on_failure: always
+os:
+  - osx
