@@ -11,10 +11,11 @@ string XOR(string s, string code)
 	int len2 = s.length();
 	int i = 0;
 	int j = 0;
-	
+	unsigned int temp;
 	for (int i = 0; i < len2;i++)
 	{
-		s[i] = s[i] ^ code[j];
+		temp = s[i] ^ code[j];
+		s[i] = temp;
 		j++;
 		if (j >= len) j = 0;
 		i++;
